@@ -27,7 +27,7 @@ import {
 } from "./utils";
 
 import { Cluster } from "../cluster";
-import equal from "fast-deep-equal";
+import equal from "@appbaseio/fast-deep-equal";
 
 export interface GridOptions extends ViewportAlgorithmOptions {
   gridSize?: number;
